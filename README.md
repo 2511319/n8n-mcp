@@ -4,6 +4,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/czlonkowski/n8n-mcp?style=social)](https://github.com/czlonkowski/n8n-mcp)
 [![Version](https://img.shields.io/badge/version-2.7.4-blue.svg)](https://github.com/czlonkowski/n8n-mcp)
 [![Docker](https://img.shields.io/badge/docker-ghcr.io%2Fczlonkowski%2Fn8n--mcp-green.svg)](https://github.com/czlonkowski/n8n-mcp/pkgs/container/n8n-mcp)
+[![smithery badge](https://smithery.ai/badge/@2511319/n8n-mcp-dba)](https://smithery.ai/server/@2511319/n8n-mcp-dba)
 
 A Model Context Protocol (MCP) server that provides AI assistants with comprehensive access to n8n node documentation, properties, and operations. Deploy in minutes to give Claude and other AI assistants deep knowledge about n8n's 525+ workflow automation nodes.
 
@@ -21,6 +22,14 @@ n8n-MCP serves as a bridge between n8n's workflow automation platform and AI mod
 ## 🚀 Quick Start
 
 Get n8n-MCP running in 5 minutes:
+
+### Installing via Smithery
+
+To install n8n-mcp-dba for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@2511319/n8n-mcp-dba):
+
+```bash
+npx -y @smithery/cli install @2511319/n8n-mcp-dba --client claude
+```
 
 ### Option 1: Docker (Easiest) 🚀
 
